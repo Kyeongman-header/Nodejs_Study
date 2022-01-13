@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"
+    "dev": "gulp dev"
   },
   "dependencies": {
     "@babel/cli": "^7.16.8",
@@ -16,6 +17,11 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   },
   "main": "app.js",
   "devDependencies": {
@@ -33,4 +39,5 @@
   },
   "homepage": "https://github.com/Kyeongman-header/Nodejs_Study#readme",
   "description": ""
+
 }
