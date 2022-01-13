@@ -13,14 +13,15 @@
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
+    "del": "^4.1.1",
     "ejs": "^2.6.2",
     "express": "~4.16.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^5.1.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "del": "^4.1.1",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-csso": "^3.0.1"
-
+    "node-sass": "^7.0.1"
   },
   "main": "app.js",
   "devDependencies": {
@@ -38,5 +39,4 @@
   },
   "homepage": "https://github.com/Kyeongman-header/Nodejs_Study#readme",
   "description": ""
-
 }
